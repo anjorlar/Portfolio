@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    box-sizing: content-box;
+    font-style: oblique;
+    color: rgb(255, 254, 254);
+
+}
+
+.maintop {
+    background-color: #3e4444;
+    padding-bottom: 2%;
+    background-image: linear-gradient(to left, rgb(114, 102, 122), rgb(46, 3, 34));
+}
+
+a {
+    color: rgb(216, 32, 109);
+}
+
+.topbar {
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.logo {
+    margin-left: 1.5%;
+    margin-top: 2%;
+}
+
+/* .self {
+    height: 100px;
+    width: 50px;
+} */
+
+.navbar {
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.menu {
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    padding: 25px;
+    display: inline;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+
+.main-text {
+    font-size: 40px;
+    width: 78%;
+    padding: 60px 0;
+}
+
+.innercircle {
+    width: 50%;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.personal-img {
+    width: 50%;
+}
+
+.moweblack {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5%;
+}
+
+.fa {
+    border-radius: 50%;
+}
+
+.mainmiddle {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.contactinfo {
+    width: 50%;
+}
+
+.bodytext,
+.tel-mail {
+    width: 75%;
+    padding: 0 65px;
+    font-size: 20px;
+}
+
+.me {
+    margin-left: 30%;
+}
+
+.icons {
+    width: 50%;
+}
+
+.icons .fa {
+    font-size: 32px;
+    padding: 0px 10px;
+}
+
+@media (max-width: 829px) {
+    img {
+        display: none;
+        width: 100%;
+    }
+
+    .logo {
+        position: fixed;
+    }
+
+    /* .moweblack{
+    display: none;
+} */
+    .main-text {
+        width: 100%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+
+    .mainmiddle {
+        background-image: url(image/photo-1461java.jpg);
+        border-radius: 4% 6% 7% 10%;
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+}
