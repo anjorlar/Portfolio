@@ -6,11 +6,12 @@
 img {
     object-fit: cover;
     width: 100%;
+    height: 100%;
 }
 
 html,
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, 'Cambria', 'Cochin', Georgia, Times;
     width: 100%;
     box-sizing: content-box;
     font-style: oblique;
@@ -25,8 +26,12 @@ body {
 }
 
 /* HEADER */
+.hamburger {
+    display: none;
+}
 
-a {
+a,
+.skills {
     color: rgb(216, 32, 109);
 }
 
@@ -51,7 +56,7 @@ a::after {
 
 .navbar {
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .menu {
@@ -59,13 +64,9 @@ a::after {
 }
 
 li {
-    padding: 25px;
+    padding: 18px;
     display: inline;
     list-style-type: none;
-}
-
-.margin {
-    margin-left: 10%;
 }
 
 /* CONTAINER */
@@ -73,8 +74,8 @@ li {
 .container {
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    margin: 4% 0;
+    justify-content: space-evenly;
+    margin: 3% 0;
 }
 
 .main-text {
@@ -84,27 +85,26 @@ li {
 }
 
 .innercircle {
-    width: 50%;
+    width: 40%;
     text-align: center;
     padding-top: 5%;
-
 }
 
 .personal-img {
-    width: 50%;
+    width: 40%;
 }
 
 .moweblack {
     border-radius: 50%;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
 }
 
 /* MAINMIDDLE */
 .mainmiddle {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0 auto;
 }
 
@@ -113,14 +113,14 @@ li {
 }
 
 .bodytext {
-    width: 75%;
-    padding: 0 65px;
+    width: 70%;
+    /* text-align: center;
+    letter-spacing: 2px; */
     font-size: 20px;
 }
 
 span {
-    padding: 0 65px;
-    font-size: 20px;
+    padding: 7px;
 }
 
 .me {
@@ -128,7 +128,7 @@ span {
 }
 
 .icons {
-    width: 50%;
+    width: 40%;
 }
 
 .fa {
@@ -144,34 +144,36 @@ span {
 .footer {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 1%;
+    margin-top: 1.5%;
 }
 
-@media (max-width: 829px) {
+@media (max-width: 749px) {
     img {
         /* display: none; */
         width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+        width: 35px;
+        height: 10px;
+        background-color: black;
+        margin: 6px auto;
     }
 
     .logo {
         position: fixed;
     }
 
-    li {
-        display: block;
-        padding: 0 0;
-    }
-
     .navbar {
         margin-left: auto;
+        display: none;
     }
 
     .container {
         display: flex;
         flex-direction: column;
-        /* align-content: center; */
-        /* align-items: center; */
-        align-self: center;
+        align-items: center;
     }
 
     .main-text {
@@ -183,6 +185,7 @@ span {
     .mainmiddle {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin: 8% 0;
 
     }
@@ -192,7 +195,7 @@ span {
         text-align: center;
     }
 
-    .footer {
-        flex-wrap: wrap;
+    .fa {
+        display: block;
     }
 }
