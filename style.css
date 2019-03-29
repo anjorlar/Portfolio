@@ -155,10 +155,33 @@ span {
 
     .hamburger {
         display: block;
+        margin-top: 10px;
+        margin-right: auto;
+    }
+
+    .hamburger div {
         width: 35px;
-        height: 10px;
+        height: 9px;
         background-color: black;
-        margin: 6px auto;
+        margin: 5px 0;
+        transition: 1s
+    }
+
+    .change div:nth-child(1) {
+        transform: rotate(-45deg) translate(-10px, 10px);
+    }
+
+    .change div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .change div:nth-child(3) {
+        transform: rotate(45deg) translate(-10px, -10px);
+    }
+
+    .nav-list span {
+        border-bottom: solid rgb(204, 134, 109);
+        padding: 2px;
     }
 
     .logo {
