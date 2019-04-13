@@ -39,6 +39,10 @@ a::after {
     border-bottom-color: blueviolet;
 }
 
+a {
+    text-decoration: none;
+}
+
 .topbar {
     display: flex;
     margin-bottom: 1%;
@@ -119,10 +123,6 @@ li {
     font-size: 20px;
 }
 
-span {
-    padding: 7px;
-}
-
 .me {
     margin-left: 30%;
 }
@@ -155,8 +155,9 @@ span {
 
     .hamburger {
         display: block;
-        margin-top: 10px;
-        margin-right: auto;
+        float: right;
+        /* margin-top: 10px; */
+        /* margin-right: auto; */
     }
 
     .hamburger div {
@@ -193,10 +194,33 @@ span {
         display: none;
     }
 
+    .bodytext {
+        /* line-height: 4px; */
+        letter-spacing: 4px;
+    }
+
+    .bodytext span {
+        letter-spacing: 4px;
+    }
+
+    span {
+        display: block;
+    }
+
+    .bodytext a {
+        text-decoration: none;
+
+    }
+
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .moweblack {
+        object-fit: scale-down;
+        width: 150%;
     }
 
     .main-text {
