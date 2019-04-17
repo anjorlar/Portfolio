@@ -180,7 +180,7 @@ li {
         transform: rotate(45deg) translate(-10px, -10px);
     }
 
-    .nav-list span {
+    .navLink div {
         border-bottom: solid rgb(204, 134, 109);
         padding: 2px;
     }
