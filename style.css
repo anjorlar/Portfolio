@@ -61,6 +61,7 @@ a {
 .navbar {
     margin: 0 auto;
     margin-top: 1%;
+    /* background-color: aqua; */
 }
 
 .menu {
@@ -180,18 +181,23 @@ li {
         transform: rotate(45deg) translate(-10px, -10px);
     }
 
-    .navLink div {
+    /* #navLink div {
         border-bottom: solid rgb(204, 134, 109);
         padding: 2px;
-    }
+    } */
 
     .logo {
         position: fixed;
     }
 
     .navbar {
-        margin-left: auto;
+        /* margin-left: auto; */
         display: none;
+
+    }
+
+    .navbar li {
+        display: block;
     }
 
     .bodytext {
