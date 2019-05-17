@@ -61,7 +61,7 @@ a {
 
 .navbar {
     margin: 0 auto;
-    margin-top: 1.5%;
+    margin-top: 2.5%;
     /* background-color: aqua; */
 }
 
@@ -81,7 +81,7 @@ li {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    margin: 3% 0;
+    margin: 3.5% 0;
 }
 
 .main-text {
