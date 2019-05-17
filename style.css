@@ -4,7 +4,7 @@
 }
 
 img {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }
@@ -21,8 +21,9 @@ body {
 
 .maintop {
     background-color: #3e4444;
+    /* background-color: beige; */
     padding-bottom: 2%;
-    background-image: linear-gradient(to left, rgb(114, 102, 122), rgb(46, 3, 34));
+    background-image: linear-gradient(to left, rgb(24, 20, 27), rgb(17, 2, 13));
 }
 
 /* HEADER */
