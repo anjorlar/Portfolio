@@ -23,7 +23,7 @@ body {
     background-color: #3e4444;
     /* background-color: beige; */
     padding-bottom: 2%;
-    background-image: linear-gradient(to left, rgb(24, 20, 27), rgb(17, 2, 13));
+    background-image: linear-gradient(to top left, rgb(54, 46, 59), rgb(15, 2, 11));
 }
 
 /* HEADER */
@@ -33,7 +33,7 @@ body {
 
 a,
 .skills {
-    color: rgb(216, 32, 109);
+    color: rgb(7, 70, 38);
 }
 
 a::after {
